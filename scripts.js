@@ -64,3 +64,7 @@ const debounce = (fn) => {
       video.volume = 1;
     }
   })
+
+  let sound = function(){
+    video.muted = false
+  }

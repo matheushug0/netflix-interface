@@ -18,6 +18,11 @@ html:not([data-scroll='0']) body .video video{
     transition: 0.3s;
 }
 
+html:not([data-scroll='0']) main #sound-on{
+    opacity: 0;
+    transition: 0.3s;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -241,6 +246,34 @@ main .main-film {
     z-index: 2;
 }
 
+main #sound-on {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    padding: 0.8em 1em;
+
+    border-radius: 0.5em;
+
+    position: absolute;
+    bottom: 15em;
+    right: 1em;
+
+    z-index: 1;
+
+    border: none;
+
+    background-color: rgba(218, 218, 218, 0.699);
+    color: black;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main #sound-on:hover {
+    filter: invert(100);
+    transition: 0.3s;
+}
 
 main .container {
 
