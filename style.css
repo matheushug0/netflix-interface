@@ -457,6 +457,10 @@ main .container .buttons button .fas {
         display: none;
     }
 
+    main #sound-on {
+        display: none;
+    }
+
     body {
         background-size: 100vw;
         background-size: 150vh;
@@ -487,10 +491,12 @@ main .container .buttons button .fas {
         margin-top: -2em;
 
         font-size: 0.8em;
+
+        margin-bottom: 6em;
     }
 
     .carousel {
-        margin-top: -2em;
+        margin-top: -5em;
     }
 }
 
@@ -521,6 +527,8 @@ main .container .buttons button .fas {
         margin-top: 5em;
 
         font-size: 0.8em;
+
+        margin-bottom: 5em;
     }
 
     .carousel {

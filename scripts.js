@@ -4,10 +4,10 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     responsive:{
         0:{
-            items:4
+            items:5.5
         },
         600:{
-            items:6
+            items:4.5
         },
         1000:{
             items:5.5
@@ -53,9 +53,10 @@ const debounce = (fn) => {
   storeScroll();
 
   const video = document.querySelector("video")
+  const soundOn = document.querySelector('#sound-on')
   console.log(video)
 
-  video.addEventListener("ended", function(){video.style.opacity = 0})
+  video.addEventListener("ended", function(){video.style.opacity = 0; soundOn.style.opacity = 0;})
 
   document.addEventListener('scroll', function(){
     if(document.documentElement.dataset.scroll = window.scrollY != 0){
