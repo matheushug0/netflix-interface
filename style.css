@@ -411,14 +411,12 @@ main .container .buttons button .fas {
 }
 
 /*  Media Querys */
-
-@media screen and (max-width: 500px){
+@media screen and (max-width:700px){
+    
     body .video video {
         display: none;
     }
-}
 
-@media screen and (max-width:700px){
     body {
         background-size: 100vw;
         background-size: 150vh;
