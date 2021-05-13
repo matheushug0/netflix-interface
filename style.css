@@ -38,6 +38,8 @@ body .video {
 
     z-index: 0;
 
+    overflow: hidden;
+
     transition: 0.3s;
 }
 
@@ -425,7 +427,7 @@ main .container .buttons button .fas {
     }
 
     header .container #logo-netflix {
-        width: 4em;
+        display: none;
     }
 
     header .container .side input{
