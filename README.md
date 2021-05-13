@@ -16,7 +16,7 @@ Desenvolvido no Bootcamp "Web Developer" da @digitalinnovationone
 - O código JS para implementar o background do header ao descer o scroll na página - encontrei pesquisando, o mesmo ajudou a implementar outros detalhes também utilizando o eventListener.
 
 
-    ## Melhoras para implementar posteriormente:
+    ## Melhorias para implementar posteriormente:
 -   Animação do botão de pesquisa e do input.
 -   Modals para as notificações, usuários.
 -   Adotar um carousel mais prático e que permita manipular os containers para fazer uma animação semelhante a página original.
