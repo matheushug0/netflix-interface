@@ -7,7 +7,3 @@ Desenvolvido no Bootcamp "Web Developer" da @digitalinnovationone
 <a href="https://netflix-interface-one.vercel.app/" target="_blank">Preview on Vercel</a>
 
 ## Screenshots
-
-<img src="./img/preview1.jpg">
-<img src="./img/preview2.jpg">
-<img src="./img/preview3.jpg">
